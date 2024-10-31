@@ -49,7 +49,7 @@ function loadWidget(config) {
 	let userAction = false,
 		userActionTimer,
 		messageTimer,
-		messageArray = ["长按鼠标后松开有惊喜哦~", "逝者如斯，不舍昼夜", "嗨～是在发呆吗", "加油哦，我知道你最厉害了""想我了吗 好吧 我也想你了..."];
+		messageArray = ["长按鼠标后松开有惊喜哦~", "逝者如斯，不舍昼夜", "嗨～是在发呆吗", "加油哦，我知道你最厉害了","想我了吗 好吧 我也想你了..."];
 	window.addEventListener("mousemove", () => userAction = true);
 	window.addEventListener("keydown", () => userAction = true);
 	window.addEventListener("click", () => userAction = true);
